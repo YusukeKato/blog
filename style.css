@@ -50,6 +50,26 @@ body {
     padding-left: 35%;
 }
 
+/* 自己紹介(PC) */
+.box2 {
+    width: 20%;
+    border: 6px solid #DDD;
+    margin: 1em 0;
+    padding: 1em;
+}
+
+.position_about {
+    position: fixed;
+    top: 20%;
+    left: 4%;
+    margin: 0;
+    width: 100%;
+}
+
+.space {
+    padding-bottom: 10px;
+}
+
 /* スマホ用 */
 @media screen and (max-width: 480px) {
     p {
@@ -59,11 +79,23 @@ body {
     .box1 {
         width: 80%;
         border: 4px double #DDD;
-        margin: 2em 0;
+        margin: 1em 0;
         padding: 1em;
     }
 
     .position_index1 {
+        padding-left: 5%;
+    }
+
+    /* 自己紹介(PC) */
+    .box2 {
+        width: 80%;
+        border: 4px solid #DDD;
+        margin: 1em 0;
+        padding: 1em;
+    }
+
+    .position_about {
         padding-left: 5%;
     }
 }
