@@ -37,37 +37,40 @@ body {
     background-color: #88C;
 }
 
-/* 記事を囲むbox1 */
-.box1 {
-    width: 40%;
-    border: 4px double #DDD;
-    margin: 2em 0;
-    padding: 2em;
-}
-
-/* box1を真ん中にそろえる */
-.position_index1 {
-    padding-left: 35%;
-}
-
-/* 自己紹介(PC) */
-.box2 {
-    width: 20%;
-    border: 6px solid #DDD;
-    margin: 1em 0;
-    padding: 1em;
-}
-
-.position_about {
-    position: fixed;
-    top: 20%;
-    left: 4%;
-    margin: 0;
-    width: 100%;
-}
-
 .space {
     padding-bottom: 10px;
+}
+
+@media screen and (min-width: 480px) {
+
+    /* 記事を囲むbox1 */
+    .box1 {
+        width: 40%;
+        border: 4px double #DDD;
+        margin: 2em 0;
+        padding: 2em;
+    }
+
+    /* box1を真ん中にそろえる */
+    .position_index1 {
+        padding-left: 35%;
+    }
+
+    /* 自己紹介(PC) */
+    .box2 {
+        width: 20%;
+        border: 6px solid #DDD;
+        margin: 1em 0;
+        padding: 1em;
+    }
+
+    .position_about {
+        position: fixed;
+        top: 20%;
+        left: 4%;
+        margin: 0;
+        width: 100%;
+    }
 }
 
 /* スマホ用 */
@@ -96,6 +99,7 @@ body {
     }
 
     .position_about {
+        position: 0;
         padding-left: 5%;
     }
 }
