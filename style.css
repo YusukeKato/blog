@@ -35,6 +35,27 @@ body {
 }
 
 @media screen and (max-width: 480px) {
+    .header {
+        width: 90%;
+        color: #222;
+    }
+    
+    .footer {
+        width: 90%;
+        text-align: center;
+        color: #222;
+    }
+    
+    .title {
+        width: 90%;
+        text-align: center;
+    }
+    
+    .hr1 {
+        width: 90%;
+        background-color: #88C;
+    }
+
     .box1 {
         width: 80%;
         border: 4px double #DDD;
@@ -43,6 +64,6 @@ body {
     }
 
     .position_index1 {
-        padding-left: 10px;
+        padding-left: 10%;
     }
 }
