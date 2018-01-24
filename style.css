@@ -4,6 +4,7 @@ body {
     font-family: sans-serif;
     width: 100%;
     background-color: #FFF;
+    position: fixed;
 }
 
 .header {
@@ -35,24 +36,27 @@ body {
 }
 
 @media screen and (max-width: 480px) {
+    p {
+        font-size: 12px;
+    }
     .header {
         width: 90%;
         color: #222;
     }
     
     .footer {
-        width: 90%;
+        width: 96%;
         text-align: center;
         color: #222;
     }
     
     .title {
-        width: 90%;
+        width: 96%;
         text-align: center;
     }
     
     .hr1 {
-        width: 90%;
+        width: 98%;
         background-color: #88C;
     }
 
@@ -64,6 +68,6 @@ body {
     }
 
     .position_index1 {
-        padding-left: 10%;
+        padding-left: 5%;
     }
 }
