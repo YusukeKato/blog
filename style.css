@@ -1,11 +1,15 @@
 @charset "utf-8";
 
+/* PCとスマホで分ける */
+
+/* bodyはPCとスマホで同じ */
 body {
     font-family: sans-serif;
     width: 96%;
     background-color: #FFF;
 }
 
+/* ページトップに固定 */
 #fixed_top {
     position: fixed;
     top: 0;
@@ -33,6 +37,7 @@ body {
     background-color: #88C;
 }
 
+/* 記事を囲むbox1 */
 .box1 {
     width: 40%;
     border: 4px double #DDD;
@@ -40,29 +45,15 @@ body {
     padding: 2em;
 }
 
+/* box1を真ん中にそろえる */
 .position_index1 {
     padding-left: 35%;
 }
 
+/* スマホ用 */
 @media screen and (max-width: 480px) {
     p {
         font-size: 12px;
-    }
-    .header {
-        color: #222;
-    }
-    
-    .footer {
-        text-align: center;
-        color: #222;
-    }
-    
-    .title {
-        text-align: center;
-    }
-    
-    .hr1 {
-        background-color: #88C;
     }
 
     .box1 {
