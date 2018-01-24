@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+body {
+    font-family: sans-serif;
+    width: 100%;
+    background-color: #FFF;
+}
+
+.header {
+    color: #222;
+}
+
+.footer {
+    text-align: center;
+    color: #222;
+}
+
+.title {
+    text-align: center;
+}
+
+.hr1 {
+    background-color: #88C;
+}
+
+.box1 {
+    width: 40%;
+    border: 4px double #DDD;
+    margin: 2em 0;
+    padding: 2em;
+}
+
+.position_index1 {
+    padding-left: 35%;
+}
+
+@media screen and (max-width: 480px) {
+    .box1 {
+        width: 80%;
+        border: 4px double #DDD;
+        margin: 2em 0;
+        padding: 1em;
+    }
+
+    .position_index1 {
+        padding-left: 10px;
+    }
+}
