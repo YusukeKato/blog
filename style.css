@@ -2,7 +2,7 @@
 
 /* PCとスマホで分ける */
 
-/* bodyはPCとスマホで同じ */
+/* PCとスマホで共有 */
 body {
     font-family: sans-serif;
     width: 96%;
@@ -41,6 +41,7 @@ body {
     padding-bottom: 10px;
 }
 
+/* PC用 */
 @media screen and (min-width: 480px) {
 
     /* 記事を囲むbox1 */
@@ -68,6 +69,15 @@ body {
         position: fixed;
         top: 20%;
         left: 4%;
+        margin: 0;
+        width: 100%;
+    }
+
+    /* 記事一覧(PC) */
+    .position_AllArticle {
+        position: fixed;
+        top: 20%;
+        left: 72%;
         margin: 0;
         width: 100%;
     }
@@ -99,6 +109,11 @@ body {
     }
 
     .position_about {
+        position: 0;
+        padding-left: 5%;
+    }
+
+    .position_AllArticle {
         position: 0;
         padding-left: 5%;
     }
